@@ -1,52 +1,59 @@
 let resumeData = {
     "imagebaseurl":"https://picsum.photos/200/300",
-    "name": "Rameez Shahsad",
-    "role": "Fullstack developer",
-    "linkedinId":"https://www.linkedin.com/in/rameez-shahsad/",
-    "email":"merameez543@gmail.com",
-    "roleDescription": `Experienced with a demonstrated history of working in the information technology and services industry. Skilled in JavaScript, Reactjs, Nodejs, HTML and CSS . `,
+    "name": "Chirag Shah",
+    "role": "Mechanical Engineer",
+    "linkedinId":"https://www.linkedin.com/in/chirag-shah-46531314b/",
+    "email":"shahchirag2504@gmail.com",
+    "roleDescription": `Experienced with a demonstrated history of working in the information technology and services industry. Skilled in SAP, AutoCad, Solidworks, Tableau, Excel for Business.`,
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rameez-shahsad/",
+          "url":"https://www.linkedin.com/in/chirag-shah-46531314b/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"https://github.com/rameez543",
+          "url":"https://github.com/chiragshah2504",
           "className":"fa fa-github"
         },
         {
           "name":"Email",
-          "url":"mailto:merameez543@gmail.com",
+          "url":"mailto:shahchirag2504@gmail.com",
           "className":"fa fa-envelope"
         },
       ],
-    "aboutme":`I am currently working as full stack developer in ceegees software solutions,enthusiastic 
-                software developer interested to build things.Specialized in javascript tech stack like Reactjs,Nodejs,Expressjs,React Native    `,
-    "address":"Bangalore,India",
-    "website":"http://rameez.ml",
+    "aboutme":`Hi! I'm Chirag Shah.
+I'm a Mechanical Engineering Graduate  Batch of 2020. 
+I'm currently working as a SAP ABAP Developer at Accenture. 
+Looking forward to new opportunities where I can bring my knowledge and skills into practice. My Area of Interest is - 
+1. Supply Chain Management
+2. Quality Management using Lean Six Sigma Tools
+3. Operations Research and Decision Analysis
+
+I enjoy working in cross-functional teams and love staying updated with the latest Industry trends.`,
+
+
+    "address":"Mumbai,India",
     "education":[
       {
-        "UniversityName":"Government Engineering college Wayanad",
-        "specialization":"Btech in Computer science and Engineering",
-        "MonthOfPassing":"March",
-        "YearOfPassing":"2018",
+        "UniversityName":"K.J. Somaiya College of Engineering",
+        "specialization":"Btech in Mechanical Engineering",
+        "MonthOfPassing":"Oct",
+        "YearOfPassing":"2020",
         
       },
      
     ],
     "work":[
       {
-        "CompanyName":"ceegees software solution",
-        "specialization":"Fullstack developer",
-        "MonthOfLeaving":"Nov",
-        "YearOfLeaving":"2018",
-        "Achievements": ["Created multiple web apps starting with requirements gathering, designing, developing, refactoring, and code implementation",
-                         "Implemented the redesigned user dashboard with better UX and performance using reactjs"  ,
-                          "Designed ,developed and hosted Nodejs,React apps with Nginx",
-                         "Integrated firebase and Aws SNS services",
-                          "Built IOS/Android apps with react-native"   ]
+        "CompanyName":"Accenture",
+        "isCurrent":true,
+        "specialization":"SAP ABAP Developer",
+        "from":"Jan",
+        "fromyear":"2021",
+        "to":"",
+        "toyear":"",
+        "Achievements": []
 
       },
       
@@ -55,64 +62,41 @@ let resumeData = {
     "skills":[
       
       {
-        "skillname": "Reactjs",
+        "skillname": "SAP",
         level: 65
       },
       {
-        "skillname": "Reduxjs",
+        "skillname": "Solidworks",
         level: 60
       },
       {
-        "skillname": "Nodejs",
+        "skillname": "Autocad",
         level: 60
       },
       {
-        "skillname": "Expressjs",
+        "skillname": "Excel",
         level: 62
       },
-      ,
-      {
-        "skillname": "HTML5",
-        level: 75
-      },
-      {
-        "skillname": "CSS",
-        level: 65
-      },
+
+
     ],
     "portfolio":[
       {
-        "name":"Shopg",
-        "description":`Revamped the whole app according to the customer's need
-        integrated SMS and Push notification
-        created RESTful api endpoints
+        "name":"Fault Analysis in Bearings using Fast Fourier Transform (FFT) analysis and Artifical Neural Network (ANN)",
+        "description":`
+        Fault analysis using frequency domain was performed on healthy bearings and defective bearings.
+        The time domain analysis uses a kurtosis tool and frequency domain analysis uses fast fourier transform.
+        The result of kurtosis and fast fourier transform shows the bearing condition.
+        ANN was trained with statistical features of Time domain vibration signal and the output was correctly predicted using ANN.
         Tools:
-        Reactjs,Nodejs,Expressjs,reduxjs,Postgresql,HTML5,CSS3,NGINX,firebase,Aws`,
-        "imgurl":"images/shop.jpg"
+        Labview,Excel`,
+        "imgurl":"images/project.jpg"
       },
-      {
-        "name":"Skoolnet",
-        "description":`developed screens using react-native for IOS/Android
-        Tracked and solved tickets for defects on bug reporting tool (JIRA)
-        Tools: React Native`,
-        "imgurl":"images/skoolnet.jpg"
-      },
-      {
-        "name":"Dawaadost",
-        "description":`created a vendor App for IOS/Android using react native
-        developed and deployed the frontend and backend of the website
-        Tools: Reactjs,Nodejs,Expressjs,reduxjs,Postgresql,HTML5,CSS3,Nginx,Ant Design`,  
-        "imgurl":"images/medicine.jpg"
-      },
-      {
-        "name":"Mai web",
-        "description":`created pixel perfect responsive Web pages for provided screens
-        using Reactjs
-        Consumed RESTful api for rendering data using Axios
-        Tools: Reactjs,reduxjs,HTML5,CSS3`,
-        "imgurl":"images/parenting.jpg"
-      }
+
+
+
     ],
+    artPage:"https://instagram.com/artby._.chirag?igshid=1gdbanjj55lz8"
   }
   
   export default resumeData

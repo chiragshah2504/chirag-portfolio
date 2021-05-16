@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    console.log(resumeData.portfolio )
     return (
       <section id="portfolio">
         <div className="row">
@@ -11,7 +12,7 @@ export default class Porfolio extends Component {
               {
                 resumeData.portfolio && resumeData.portfolio.map((item) => {
                   return (
-                    <div className="columns portfolio-item">
+                    <div className="columns portfolio-item" >
                       <div className="item-wrap">
 
                         <img src={`${item.imgurl}`} className="item-img" style={{height:'240px',width:'240px'}}/>
